@@ -65,12 +65,12 @@ Replace <type> with `position` or `trajectory` to launch the corresponding contr
 ## Management/Monitoring Commands:
 List Active Controllers:
  ```shell
-    ros2 control list_controllers
+ ros2 control list_controllers
  ```
 
 Stop a Controller:
 ```shell
-    ros2 control switch_controllers --stop <controller_name>
+ros2 control switch_controllers --stop <controller_name>
 ```
 
 ## **5. Subscriber and Publisher node**
